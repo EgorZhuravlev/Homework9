@@ -8,10 +8,10 @@ N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1" */
 Console.WriteLine("Введите число - ");
 int number = int.Parse(Console.ReadLine());
 
-NumberCounter (number);
+NumberCounter(number);
 
 
-void NumberCounter (int number) 
+void NumberCounter(int number)
 {
 
 
@@ -24,5 +24,5 @@ void NumberCounter (int number)
         return;
     }
     Console.Write(number);
-    NumberCounter (number - 1);
+    NumberCounter(number - 1);
 }
